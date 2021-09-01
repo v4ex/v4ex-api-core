@@ -1,0 +1,28 @@
+{
+  "name": "v4ex-api-core",
+  "version": "1.0.x",
+  "description": "Core package for V4EX API System.",
+  "repository": "github:v4ex/v4ex-api-core",
+  "author": "V4EX Inc. <v4ex-api-core@v4ex.com> (https://v4ex.com/)",
+  "contributors": [
+    "Xuwei Li <v4ex-api-core@xuwei.li> (https://xuwei.li/)"
+  ],
+  "license": "GPL-3.0",
+  "main": "index.js",
+  "files": [
+    "index.js",
+    "LICENSE",
+    "mongoose.js"
+  ],
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watch"
+  },
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "mongoose": "^6.0.3"
+  },
+  "devDependencies": {
+    "jest": "^27.1.0"
+  }
+}
