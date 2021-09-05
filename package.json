@@ -1,6 +1,6 @@
 {
   "name": "v4ex-api-core",
-  "version": "1.0.0",
+  "version": "1.0.x",
   "description": "Core package for V4EX API System.",
   "repository": "github:v4ex/v4ex-api-core",
   "author": "V4EX Inc. <v4ex-api-core@v4ex.com> (https://v4ex.com/)",
@@ -10,6 +10,7 @@
   "license": "GPL-3.0",
   "main": "index.js",
   "files": [
+    ".env.example",
     "index.js",
     "LICENSE",
     "mongoose.js"
@@ -20,7 +21,7 @@
   },
   "dependencies": {
     "dotenv": "^10.0.0",
-    "mongoose": "^6.0.3"
+    "mongoose": "^6.0.4"
   },
   "devDependencies": {
     "jest": "^27.1.0"
