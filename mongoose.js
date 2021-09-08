@@ -1,7 +1,13 @@
-require('dotenv').config()
+/* Copyright (c) V4EX Inc. SPDX-License-Identifier: GPL-3.0-or-later */
 
-const mongoose = require('mongoose')
+// Purpose: Provide mongoose instance.
 
-mongoose.connect(process.env.CORE_MONGO_URI)
 
-module.exports = mongoose
+module.exports = ({ env }) => {
+  
+  const mongoose = require('mongoose')
+  mongoose.connect(env.CORE_MONGO_URI)
+
+
+  return mongoose
+}

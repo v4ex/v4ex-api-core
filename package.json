@@ -1,6 +1,6 @@
 {
   "name": "v4ex-api-core",
-  "version": "2.0.0",
+  "version": "3.0.0-alpha",
   "description": "Core package for V4EX API System.",
   "repository": "github:v4ex/v4ex-api-core",
   "author": "V4EX Inc. <v4ex-api-core@v4ex.com> (https://v4ex.com/)",
