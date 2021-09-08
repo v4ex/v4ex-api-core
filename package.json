@@ -9,12 +9,6 @@
   ],
   "license": "GPL-3.0",
   "main": "index.js",
-  "files": [
-    ".env.example",
-    "index.js",
-    "LICENSE",
-    "mongoose.js"
-  ],
   "scripts": {
     "test": "jest",
     "test:watch": "jest --watch"
